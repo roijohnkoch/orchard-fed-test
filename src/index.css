@@ -5,9 +5,25 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #282c34;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: local('Open Sans'), url('./fonts/OpenSans/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans Condensed';
+  src: local('Open Sans Condensed'), url('./fonts/OpenSans_Condensed/OpenSans_Condensed-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans Semi-Condensed';
+  src: local('Open Sans Semi-Condensed'), url('./fonts/OpenSans_SemiCondensed/OpenSans_SemiCondensed-Regular.ttf') format('truetype');
 }
