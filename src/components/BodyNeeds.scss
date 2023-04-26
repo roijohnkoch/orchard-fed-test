@@ -1,0 +1,32 @@
+.body-needs_container {
+  margin: 8% auto;
+  width: 64%;
+  
+  .text-container {
+    color: #bfbfbf;
+    font-family: Open Sans;
+    font-weight: 200;
+
+    span {
+      font-size: 27px;
+    }
+
+    p {
+      line-height: 27px;
+    }
+
+    hr.solid {
+      border-top: 1px solid #bfbfbf;
+      border-radius: 5px;
+    }
+
+    .warning_container {
+      margin-top: 48px;
+      .warning_label {
+        margin-top: 24px;
+        color: red;
+        font-size: 15px;
+      }
+    }
+  }
+}

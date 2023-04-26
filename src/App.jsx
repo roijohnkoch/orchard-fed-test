@@ -1,12 +1,8 @@
 import React from 'react';
-import './App.css';
+import { BodyNeeds } from './components';
 
 const App = () => {
-  return (
-    <div className="App">
-      test
-    </div>
-  );
+  return <BodyNeeds />;
 }
 
 export default App;
