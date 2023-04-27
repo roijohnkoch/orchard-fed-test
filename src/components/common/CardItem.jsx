@@ -8,10 +8,10 @@ const CardItem = ({ imageSrc, title, description }) => {
 
   return (
     <div className='card-item_container'>
-      <img src={imageSrc} style={{ borderBottom: '5px solid red' }}/>
+      <img src={imageSrc} style={{ borderBottom: '5px solid red' }} alt='' />
       <div className='card-item_title'>{title}</div>
       <p>{description}</p>
-      <a onClick={onAnchorClick}>READ MORE</a>
+      <div className='card-item_button' onClick={onAnchorClick}>READ MORE</div>
     </div>
   );
 }
