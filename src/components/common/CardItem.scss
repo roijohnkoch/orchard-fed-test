@@ -10,12 +10,13 @@
     font-weight: 700;
   }
 
-  .card-item_read-more {
+  a {
     margin-top: 12px;
     color: white;
     font-weight: 700;
     border-bottom: 1px solid red;
     padding-bottom: 6px;
     width: fit-content;
+    cursor: pointer;
   }
 }
