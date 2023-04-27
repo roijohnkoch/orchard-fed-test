@@ -1,8 +1,13 @@
 import React from 'react';
-import { BodyNeeds } from './components';
+import { BodyNeeds, AegComponent } from './components';
 
 const App = () => {
-  return <BodyNeeds />;
+  return (
+    <>
+      <BodyNeeds />
+      <AegComponent />
+    </>
+  );
 }
 
 export default App;
